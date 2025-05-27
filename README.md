@@ -1,24 +1,24 @@
 # leap-reu-mf-2025
 
-# step 1: clone the repository
-# on the leap pangeo hub
-# open a terminal and do:
+step 1: clone the repository
+
+open a terminal and do:
 git clone https://github.com/linniahawkins/leap-reu-mf-2025.git
 
 cd leap-reu-mf-2025
 
-# step 2: set up your environment. 
+## Step 2: set up your environment. 
 
 conda env create -f environment.yml
 conda activate leap-reu-mf-2025
 python -m ipykernel install --user --name=leap-reu-mf-2025 --display-name "leap-reu-mf-2025"
 
-# if on leap-pangeo:
+### if on leap-pangeo:
 pip install --upgrade tensorflow
 pip install gpflow
 
 
-# Step 3: getting started with some examples
+## Step 3: getting started with some examples
 open setup_eamples.ipynb
 select the kernel we just created: leap-reu-mf-2025 (upper right corner)
 
